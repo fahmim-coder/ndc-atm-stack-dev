@@ -16,6 +16,14 @@
     <packaging>jar</packaging>
     <name>Tier1 Gateway Service</name>
     
+    <dependencies>
+       <dependency>
+          <groupId>io.netty</groupId>
+          <artifactId>netty-all</artifactId>
+          <version>4.1.100.Final</version>
+       </dependency>
+   </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -24,7 +32,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.leunca.Tier1Gateway</mainClass>
+                            <mainClass>com.leunca.NettyServer</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

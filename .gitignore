@@ -101,3 +101,22 @@ first_push.sh
 my_repo.sh
 pull.sh
 push.sh
+
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Generated directories
+bin/
+target/
+
+# Log files
+*.log
+
+# Other temporary files
+*.swp
+*.swo
+
+# Local workspace metadata (should not be in version control)
+.metadata/

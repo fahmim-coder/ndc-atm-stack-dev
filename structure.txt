@@ -32,3 +32,70 @@
                             └── AppTwo.java
 
 17 directories, 15 files
+.
+├── create_my_repo.sh
+├── docker-compose.yml
+├── first_push.sh
+├── gitignore.txt
+├── my_repo.sh
+├── pom.xml
+├── pull.sh
+├── push.sh
+├── README.md
+├── structure.txt
+├── tier1-gateway
+│   ├── Dockerfile
+│   ├── pom.xml
+│   ├── src
+│   │   └── main
+│   │       └── java
+│   │           └── com
+│   │               └── example
+│   │                   └── AppOne.java
+│   └── target
+│       ├── classes
+│       │   └── com
+│       │       └── example
+│       │           └── AppOne.class
+│       ├── generated-sources
+│       │   └── annotations
+│       ├── maven-archiver
+│       │   └── pom.properties
+│       ├── maven-status
+│       │   └── maven-compiler-plugin
+│       │       └── compile
+│       │           └── default-compile
+│       │               ├── createdFiles.lst
+│       │               └── inputFiles.lst
+│       └── tier1-gateway-1.0.0.jar
+└── tier2-mesh
+    ├── crypto-vault
+    ├── fit-engine
+    ├── ndc-parser
+    └── state-engine
+        ├── Dockerfile
+        ├── pom.xml
+        ├── src
+        │   └── main
+        │       └── java
+        │           └── com
+        │               └── example
+        │                   └── AppTwo.java
+        └── target
+            ├── classes
+            │   └── com
+            │       └── example
+            │           └── AppTwo.class
+            ├── generated-sources
+            │   └── annotations
+            ├── maven-archiver
+            │   └── pom.properties
+            ├── maven-status
+            │   └── maven-compiler-plugin
+            │       └── compile
+            │           └── default-compile
+            │               ├── createdFiles.lst
+            │               └── inputFiles.lst
+            └── state-engine-1.0.0.jar
+
+39 directories, 26 files

@@ -1,0 +1,103 @@
+# Ignore all system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vs/
+
+# Ignore build and dependency directories
+node_modules/
+vendor/
+dist/
+build/
+out/
+target/
+
+# Ignore logs and databases
+*.log
+*.sqlite
+*.db
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore OS-specific files
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore temporary files
+*.tmp
+*.bak
+*~
+*.swp
+*.swo
+
+# Ignore Python-specific files
+__pycache__/
+*.py[cod]
+
+# Ignore Java-specific files
+*.class
+*.jar
+
+# Ignore C/C++ specific files
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+
+# Ignore PHP-specific files
+composer.lock
+
+# Ignore Ruby-specific files
+Gemfile.lock
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+Cargo.lock
+
+# Ignore test coverage reports
+coverage/
+.nyc_output/
+
+# Ignore CI/CD-specific files
+.github/
+.gitlab-ci.yml
+.travis.yml
+circle.yml
+azure-pipelines.yml
+appveyor.yml
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore other misc files
+*.iml
+*.ipr
+*.iws
+
+# github utility script
+create_my_repo.sh
+first_push.sh
+my_repo.sh
+pull.sh
+push.sh

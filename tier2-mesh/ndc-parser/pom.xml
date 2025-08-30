@@ -12,8 +12,8 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
     
-    <artifactId>state-engine</artifactId>
-    <name>State Engine Service</name>
+    <artifactId>ndc-parser</artifactId>
+    <name>NDC Parser Service</name>
     
     <build>
         <plugins>
@@ -23,7 +23,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.leunca.StateEngine</mainClass>
+                            <mainClass>com.leunca.NDCParser</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

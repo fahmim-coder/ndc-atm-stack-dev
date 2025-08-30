@@ -4,18 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    
-    <groupId>com.example</groupId>
-    <artifactId>m1-parent</artifactId>
+
+    <groupId>com.leunca</groupId>
+    <artifactId>ndc-atm-stack</artifactId>    
     <version>1.0.0</version>
     <packaging>pom</packaging>
     
-    <name>M1 Parent Project</name>
-    <description>Parent POM for M1 microservices</description>
+    <name>NDC ATM Stack</name>
+    <description>Parent POM for NDC ATM microservices</description>
     
     <modules>
         <module>tier1-gateway</module>
         <module>tier2-mesh/state-engine</module>
+        <module>tier2-mesh/ndc-parser</module>
+        <module>tier2-mesh/fit-engine</module>
+        <module>tier2-mesh/crypto-vault</module>
     </modules>
     
     <properties>

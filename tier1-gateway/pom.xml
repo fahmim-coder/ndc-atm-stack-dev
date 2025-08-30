@@ -6,13 +6,14 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-        <groupId>com.example</groupId>
-        <artifactId>m1-parent</artifactId>
+        <groupId>com.leunca</groupId>
+        <artifactId>ndc-atm-stack</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     
     <artifactId>tier1-gateway</artifactId>
+    <packaging>jar</packaging>
     <name>Tier1 Gateway Service</name>
     
     <build>
@@ -23,7 +24,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.AppOne</mainClass>
+                            <mainClass>com.leunca.Tier1Gateway</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
